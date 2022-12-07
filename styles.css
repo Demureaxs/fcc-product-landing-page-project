@@ -58,7 +58,7 @@ main {
   gap: 3.5em;
   background-color: #f6f4f1;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 30px;
+  padding-top: 60px;
   border-top: 1px solid #232e29;
 }
 
@@ -90,6 +90,8 @@ form {
   height: 30px;
   border-radius: 5px;
   border-width: 1px;
+  background-color: #116466;
+  color: white;
 }
 
 .offers {
@@ -131,10 +133,14 @@ li {
   border: 1px solid #232e29;
   border-radius: 10px;
   margin: 10px 25px;
-  min-width: 600px;
+  min-width: 400px;
   max-width: 500px;
   margin-bottom: 60px;
   background-color: white;
+}
+
+.why_us_div > h1 {
+  margin-bottom: 15px;
 }
 
 .faq {
@@ -143,6 +149,8 @@ li {
   align-items: center;
   text-align: center;
   gap: 60px;
+  border-top: 1px solid #232e29;
+  padding-top: 60px;
 }
 
 .faqdivs {
@@ -172,4 +180,11 @@ button {
   padding: 5px;
   border-radius: 5px;
   color: #f6f4f1;
+}
+
+@media screen and (max-width: 600px) {
+  .faq {
+    width: 95%;
+    padding-left: 2.5%;
+  }
 }
